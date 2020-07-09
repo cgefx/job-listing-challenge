@@ -10,6 +10,8 @@ const GlobalStyles = createGlobalStyle`
     --youtube: hsl(348, 97%, 39%);
     --auto-grid-min-size: 27rem;
     --shadow-hover: 0 8px 20px -15px rgba(0, 0, 0, 0.2);
+    --font-headings:  'Spartan', sans-serif;
+    --font-body:  'Spartan', sans-serif;
   }
 
   *,
@@ -33,7 +35,7 @@ const GlobalStyles = createGlobalStyle`
     height: 100vh;
     background: ${({ theme }) => theme.background};
     color: ${({ theme }) => theme.textPrimary};
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-body);
     text-rendering: optimizeSpeed;
     transition: color 0.15s ease;
   }
