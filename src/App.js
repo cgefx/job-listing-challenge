@@ -1,14 +1,18 @@
 import React from 'react'
-import { ThemeProvider } from 'styled-components'
-import { GlobalStyles, lightTheme } from './style'
+import { ThemeProvider, CSSReset } from '@chakra-ui/core'
+import { customTheme } from './theme'
+import Header from './components/Header'
+import JobList from './components/JobList'
+import Layout from './components/Layout'
 
 function App() {
   return (
-    <ThemeProvider theme={lightTheme}>
-      <>
-        <GlobalStyles />
-        <h1>Hello</h1>
-      </>
+    <ThemeProvider theme={customTheme}>
+      <CSSReset />
+      <Header />
+      <Layout>
+        <JobList />
+      </Layout>
     </ThemeProvider>
   )
 }
