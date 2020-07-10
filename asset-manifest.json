@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.js": "/job-listing-challenge/static/js/main.8a4560c1.chunk.js",
+    "main.js.map": "/job-listing-challenge/static/js/main.8a4560c1.chunk.js.map",
+    "runtime-main.js": "/job-listing-challenge/static/js/runtime-main.0832860d.js",
+    "runtime-main.js.map": "/job-listing-challenge/static/js/runtime-main.0832860d.js.map",
+    "static/js/2.9ba9e6d4.chunk.js": "/job-listing-challenge/static/js/2.9ba9e6d4.chunk.js",
+    "static/js/2.9ba9e6d4.chunk.js.map": "/job-listing-challenge/static/js/2.9ba9e6d4.chunk.js.map",
+    "index.html": "/job-listing-challenge/index.html",
+    "precache-manifest.b1dd643509aaf5d0a6fcf956c3a1159f.js": "/job-listing-challenge/precache-manifest.b1dd643509aaf5d0a6fcf956c3a1159f.js",
+    "service-worker.js": "/job-listing-challenge/service-worker.js",
+    "static/js/2.9ba9e6d4.chunk.js.LICENSE.txt": "/job-listing-challenge/static/js/2.9ba9e6d4.chunk.js.LICENSE.txt",
+    "static/media/account.svg": "/job-listing-challenge/static/media/account.9f72c13b.svg",
+    "static/media/bg-header-desktop.svg": "/job-listing-challenge/static/media/bg-header-desktop.6e2f7196.svg",
+    "static/media/bg-header-mobile.svg": "/job-listing-challenge/static/media/bg-header-mobile.6b5ff5a0.svg",
+    "static/media/eyecam-co.svg": "/job-listing-challenge/static/media/eyecam-co.39eaebdf.svg",
+    "static/media/faceit.svg": "/job-listing-challenge/static/media/faceit.76faa79f.svg",
+    "static/media/icon-remove.svg": "/job-listing-challenge/static/media/icon-remove.ae67c678.svg",
+    "static/media/insure.svg": "/job-listing-challenge/static/media/insure.52b85a50.svg",
+    "static/media/loop-studios.svg": "/job-listing-challenge/static/media/loop-studios.6c50fd74.svg",
+    "static/media/manage.svg": "/job-listing-challenge/static/media/manage.fbe431a9.svg",
+    "static/media/myhome.svg": "/job-listing-challenge/static/media/myhome.e0ad9358.svg",
+    "static/media/photosnap.svg": "/job-listing-challenge/static/media/photosnap.3f34b49c.svg",
+    "static/media/shortly.svg": "/job-listing-challenge/static/media/shortly.45f63772.svg",
+    "static/media/the-air-filter-company.svg": "/job-listing-challenge/static/media/the-air-filter-company.23b515f9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0832860d.js",
+    "static/js/2.9ba9e6d4.chunk.js",
+    "static/js/main.8a4560c1.chunk.js"
+  ]
+}
