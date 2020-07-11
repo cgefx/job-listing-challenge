@@ -1,4 +1,4 @@
-import { theme } from '@chakra-ui/core'
+import { theme } from '@chakra-ui/core';
 
 export const customTheme = {
   ...theme,
@@ -28,4 +28,6 @@ export const customTheme = {
       400: 'hsl(180, 14%, 20%)',
     },
   },
-}
+};
+
+export default theme;
