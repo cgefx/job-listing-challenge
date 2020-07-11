@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable import/no-dynamic-require */
+import React from 'react';
 import {
   ListItem,
   Badge,
@@ -9,11 +10,11 @@ import {
   Image,
   Divider,
   Button,
-} from '@chakra-ui/core'
+} from '@chakra-ui/core';
 
 const JobCard = ({ data }) =>
   data.map((job) => {
-    const badgeItems = [...job.languages, ...job.tools, job.role, job.level]
+    const badgeItems = [...job.languages, ...job.tools, job.role, job.level];
 
     return (
       <ListItem key={job.id}>
@@ -35,6 +36,7 @@ const JobCard = ({ data }) =>
             transform="translateY(-50%)"
             rounded="full"
             size="48px"
+            // eslint-disable-next-line global-require
             src={require(`../images/${job.logo}`)}
             alt={`${job.company}-logo`}
           />
@@ -93,6 +95,7 @@ const JobCard = ({ data }) =>
                 p={2}
                 mr={4}
                 mb={4}
+                // eslint-disable-next-line react/no-array-index-key
                 key={idx}
               >
                 {item}
@@ -101,7 +104,7 @@ const JobCard = ({ data }) =>
           </Box>
         </Box>
       </ListItem>
-    )
-  })
+    );
+  });
 
-export default JobCard
+export default JobCard;
