@@ -15,7 +15,6 @@ import {
 const JobCard = ({ data }) =>
   data.map((job) => {
     const badgeItems = [...job.languages, ...job.tools, job.role, job.level];
-
     return (
       <ListItem key={job.id}>
         <Box
