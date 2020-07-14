@@ -4,15 +4,20 @@ import { customTheme } from './theme';
 import Header from './components/Header';
 import JobList from './components/JobList';
 import Layout from './components/Layout';
+import JobFilters from './components/JobFilters';
+import { ContextProvider } from './Context';
 
 function App() {
   return (
     <ThemeProvider theme={customTheme}>
-      <CSSReset />
-      <Header />
-      <Layout>
-        <JobList />
-      </Layout>
+      <ContextProvider>
+        <CSSReset />
+        <Header />
+        <Layout>
+          <JobFilters />
+          <JobList />
+        </Layout>
+      </ContextProvider>
     </ThemeProvider>
   );
 }
