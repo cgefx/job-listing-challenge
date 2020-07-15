@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable jsx-a11y/no-static-element-interactions */
 import React, { useContext } from 'react';
 import { List, Flex, Badge, Button, Box } from '@chakra-ui/core';
 import { Context } from '../Context';
@@ -42,18 +40,19 @@ const JobFilters = () => {
   return (
     <Box
       display={`${activeFilters.length > 0 ? 'inherit' : 'none'}`}
+      transition="all 0.4s 0s ease-in-out"
       position="relative"
       maxW="1110px"
       bg="white"
       mx="auto"
       mb={12}
       mt="-100px"
-      p={4}
+      p={5}
       rounded="md"
       boxShadow="lg"
     >
       <Flex align="center" justify="space-between">
-        <List display="flex" flexWrap="wrap">
+        <List display="flex" align="center" flexWrap="wrap">
           {filterItem}
         </List>
         <Box>
@@ -63,6 +62,7 @@ const JobFilters = () => {
             fontSize="xs"
             color="neutral.300"
             bg="transparent"
+            _hover={{ color: 'primary', textDecoration: 'underline' }}
           >
             Clear
           </Button>
