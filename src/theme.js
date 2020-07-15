@@ -28,6 +28,10 @@ export const customTheme = {
       400: 'hsl(180, 14%, 20%)',
     },
   },
+  shadows: {
+    ...theme.shadows,
+    primary: ' 0px 10px 61px -30px hsla(180, 29%, 50%, 0.8)',
+  },
 };
 
 export default theme;
