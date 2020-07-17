@@ -84,7 +84,7 @@ const JobList = () => {
               pt={8}
               px={6}
               py={{ md: 8 }}
-              mb={6}
+              mb={{ base: 10, md: 6 }}
               rounded="md"
               transition="all 0.2s 0s ease-in-out"
               _hover={{ transform: 'translateY(-2px)' }}
