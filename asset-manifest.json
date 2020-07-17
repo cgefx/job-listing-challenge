@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/job-listing-challenge/static/js/main.fb8682bb.chunk.js",
-    "main.js.map": "/job-listing-challenge/static/js/main.fb8682bb.chunk.js.map",
+    "main.js": "/job-listing-challenge/static/js/main.25421ac0.chunk.js",
+    "main.js.map": "/job-listing-challenge/static/js/main.25421ac0.chunk.js.map",
     "runtime-main.js": "/job-listing-challenge/static/js/runtime-main.9f088f66.js",
     "runtime-main.js.map": "/job-listing-challenge/static/js/runtime-main.9f088f66.js.map",
     "static/js/2.71abfb70.chunk.js": "/job-listing-challenge/static/js/2.71abfb70.chunk.js",
     "static/js/2.71abfb70.chunk.js.map": "/job-listing-challenge/static/js/2.71abfb70.chunk.js.map",
     "index.html": "/job-listing-challenge/index.html",
-    "precache-manifest.c51153e55c42047a055b0135116edbf0.js": "/job-listing-challenge/precache-manifest.c51153e55c42047a055b0135116edbf0.js",
+    "precache-manifest.caa72a970f52fd1d389a816712bf62d9.js": "/job-listing-challenge/precache-manifest.caa72a970f52fd1d389a816712bf62d9.js",
     "service-worker.js": "/job-listing-challenge/service-worker.js",
     "static/js/2.71abfb70.chunk.js.LICENSE.txt": "/job-listing-challenge/static/js/2.71abfb70.chunk.js.LICENSE.txt",
     "static/media/account.svg": "/job-listing-challenge/static/media/account.9f72c13b.svg",
@@ -27,6 +27,6 @@
   "entrypoints": [
     "static/js/runtime-main.9f088f66.js",
     "static/js/2.71abfb70.chunk.js",
-    "static/js/main.fb8682bb.chunk.js"
+    "static/js/main.25421ac0.chunk.js"
   ]
 }
